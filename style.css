@@ -1,0 +1,43 @@
+html {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 30px;
+  padding-top: 1 rem;
+  overflow: hidden;
+
+}
+
+.container {
+ padding-top: 1rem;
+}
+
+body {
+  background: url(https://images.pexels.com/photos/5088009/pexels-photo-5088009.jpeg?cs=srgb&dl=pexels-olia-danilevich-5088009.jpg&fm=jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+#start, #rck, #ppr, #srs {
+  background: gold;
+  margin: auto 1rem;
+  min-height: 1rem;
+  border-radius: 5px;
+  border: none;
+  padding: auto auto;
+  outline: none;
+  font-size: larger;
+  width: 170px;
+}
+
+#status {
+  padding-top: 1rem;
+}
+
+.scoreboard {
+  padding-top: 1rem;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
