@@ -1,8 +1,3 @@
-// let playerScore = 0;
-// let computerScore = 0;
-// let roundCount = 0;
-// let gameEnded = false;
-
 const start = document.querySelector("#start");
 const status = document.querySelector("#status");
 const computerPoints = document.querySelector("#computer-score");
@@ -20,7 +15,6 @@ start.addEventListener("click", () => {
   playerPoints.textContent = `Player: ${playerScore}`;
   computerPoints.textContent = `Computer: ${computerScore}`;
   
-  // gameEnded = false;
 });
 
 let playerSelection;
@@ -46,7 +40,6 @@ scissors.addEventListener("click", () => {
 
 
 function playRound() {
-  // let bestScore;  
 
   function computerSelection() {
     let weapon = ["Rock", "Paper", "Scissors"]
@@ -101,11 +94,7 @@ function playRound() {
 
 
 
-    if (playerScore === 5 || computerScore === 5){
-        // gameEnded = true;
-        // let winner;
-        // let highScore;
-        // let lowScore;
+    if (playerScore === 5 || computerScore === 5)
         if (playerScore > computerScore) {
             winner = "Player";
         } else if (computerScore > playerScore) {
