@@ -94,7 +94,7 @@ function playRound() {
 
 
 
-    if (playerScore === 5 || computerScore === 5)
+    if (playerScore === 5 || computerScore === 5){
         if (playerScore > computerScore) {
             winner = "Player";
         } else if (computerScore > playerScore) {
